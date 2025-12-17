@@ -49,7 +49,7 @@ environment {
                           "files": [
                             {
                               "pattern": "/home/ubuntu/jenkins/workspace/taxi-booking/taxi-booking/target/(*)",
-                              "target": "taxi-libs-release-local/{1}",
+                              "target": "taxi41-libs-release-local/{1}",
                               "flat": "false",
                               "props" : "${properties}",
                               "exclusions": [ "*.sha1", "*.md5"]
