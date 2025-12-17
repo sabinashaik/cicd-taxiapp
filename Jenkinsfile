@@ -77,7 +77,7 @@ environment {
     stage (" Docker Publish "){
         steps {
             script {
-               echo '<--------------- Docker Publish Started --------------->'  
+               echo '<--------------- Docker Publish Started1 --------------->'  
                 docker.withRegistry(registry, 'jfrog-cred'){
                     app.push()
                 }    
