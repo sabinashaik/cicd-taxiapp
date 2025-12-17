@@ -70,7 +70,7 @@ environment {
         script {
            echo '<--------------- Docker Build Started1 --------------->'
            app = docker.build(imageName+":"+version)
-           echo '<--------------- Docker Build Ends --------------->'
+           echo '<--------------- Docker Build Ends1 --------------->'
         }
       }
     }
